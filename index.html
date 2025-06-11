@@ -5,26 +5,27 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Bombowa strona💣</title>
     <link rel="stylesheet" href="stylee.css">
-    <script src="" defer></script>
+    <link rel="icon" href="Images/Logo.bmp">
+    <script src="script.js" defer></script>
 </head>
 <body>
     <header>
         <h1>💣Bomba w boilerze💣</h1>
     </header>
     <main>
-            <img src="Boiler.png" alt="K@rwa bombowo">
+            <img src="Images/Boiler.png" alt="K@rwa bombowo" onclick="Pies()">
         <section id="center">
-            <h3>Kalkulator BMI</h3> <!--Bisexual Migration Intelligence-->
-            <label>Podaj mase: <input type="number" placeholder="50" title="To jest w kg" id="masa"></label><br/>
-            <label>Podaj wzrost: <input type="number" placeholder="1.50" title="To jest w metrach" id="wysokosc"></label><br/>
-            <button onclick="">Oblicz</button>
+            <h3>Kalkulator BMI Jaspera</h3> <!--Bisexual Migration Intelligence-->
+            <label>Podaj mase: <input type="number" placeholder="50kg" title="To jest w kg" id="masa"></label><br/>
+            <label>Podaj wzrost: <input type="number" placeholder="150cm" title="To jest w metrach" id="wysokosc"></label><br/>
+            <button onclick="Obliczanie()">Oblicz</button>
             <p id="wynik"></p>
         </section>
         <section id="right">
             <h3>Instrukcja obsługi</h3>
             <ul>
                 <li><p>Podaj mase w <s>tonach</s> kg</p></li>
-                <li><p>Podaj wzrost w metrach</p></li>
+                <li><p>Podaj wzrost w <s>metrach</s> cm</p></li>
                 <li><p>Sprawdz czy dobrze wszytko wpisałeś</p></li>
                 <li><p>Kliknij oblicz</p></li>
             </ul>
